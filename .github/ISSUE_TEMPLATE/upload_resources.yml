@@ -14,12 +14,20 @@ body:
       placeholder: 例如：IB12345操作系统
     validations:
       required: true
-
+      
+  - type: input
+    id: semester
+    attributes:
+      label: 对应学期
+      placeholder: 例如：2024-2025-2
+    validations:
+      required: true
+  
   - type: input
     id: title
     attributes:
       label: 资料标题
-      description: 简要说明资料内容（不要再写课程名）
+      description: 简要说明资料内容
       placeholder: 例如：期末复习笔记 / 某一学期真题
     validations:
       required: true
